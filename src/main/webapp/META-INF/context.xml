@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/JdbcRealmDemo">
+    <Realm className="org.apache.catalina.realm.JDBCRealm" 
+           driverName="com.mysql.cj.jdbc.Driver" debug="99" 
+           connectionURL="jdbc:mysql://localhost:3306/sherwinblog?serverTimezone=UTC"
+           connectionName="sam" connectionPassword="sam"
+           userRoleTable="UserRole" roleNameCol="Rolename"
+           userTable="UserPass" userNameCol="Username" userCredCol="Password" />
+
+</Context>
